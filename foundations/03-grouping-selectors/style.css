@@ -1,0 +1,14 @@
+.first-class {
+    background-color: #000;
+    color: #FFF;
+}
+
+.second-class {
+    background-color: #ffff00;
+}
+
+.first-class,
+.second-class {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}

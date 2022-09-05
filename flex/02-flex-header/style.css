@@ -4,19 +4,8 @@
   display: flex;
   padding: 10px;
   align-items: center;
-  flex-wrap: wrap;
-}
-
-.left-links {
-  display: flex;
-  flex: 1;
-
-}
-
-.right-links {
-  display: flex;
-  flex: 1;
-  flex-flow: row-reverse;
+  justify-content: space-between;
+  flex-wrap: wrap; /* added for fun to keep right-links visible on page when resized */
 }
 
 .logo {
@@ -25,16 +14,15 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  justify-content: center;
-  align-items: center;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   display: flex;
+  margin: 0;
+  padding: 0;
   gap: 8px;
-  padding: 0px;
 }
 
 a {
